@@ -2823,7 +2823,9 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				function fl_ClickToGoToWebPage() {
 					window.open("http://recognified.com/privacy.html", "_blank");
 				}
-		var sizesFromUrlLastDir = document.URL.split("/")[document.URL.split("/").length - 2].split("x"); //[500,500]||[500,700]||[500,900]||[1200,700]||[1200,900]
+		
+		/*
+				var sizesFromUrlLastDir = document.URL.split("/")[document.URL.split("/").length - 2].split("x"); //[500,500]||[500,700]||[500,900]||[1200,700]||[1200,900]
 		this.curW = parseInt(sizesFromUrlLastDir[0]);
 		this.curH = parseInt(sizesFromUrlLastDir[1]);
 		
@@ -2924,7 +2926,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		}
 		
 		
-		/*
+	
 		this.mainBtns.btns.iBtn.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
@@ -2946,7 +2948,9 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.frame_125 = function() {
 		//rem = true;
 	}
+	
 	this.frame_177 = function() {
+		/*
 		var sizesFromUrlLastDir = document.URL.split("/")[document.URL.split("/").length - 2].split("x"); //[500,500]||[500,700]||[500,900]||[1200,700]||[1200,900]
 		this.curW = parseInt(sizesFromUrlLastDir[0]);
 		this.curH = parseInt(sizesFromUrlLastDir[1]);
@@ -3032,7 +3036,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		window.addEventListener('resize', ReCenter);
 		
 		
-		/*
+		
 		this.mainBtns2.Btns2.iBtn2.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
@@ -3048,10 +3052,11 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		
 		   
 		  
-		//}
+		}
 		
 		*/
 	}
+	
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(125).call(this.frame_125).wait(52).call(this.frame_177).wait(29));
