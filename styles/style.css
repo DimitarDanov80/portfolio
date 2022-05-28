@@ -1,0 +1,41 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+
+  h2{
+    margin-bottom: 5px;
+  }
+  span.thick{
+        font-weight: 700 ;
+  }
+  span.gray{
+    color:gray;
+  }
+  .bg-picture{
+    background-image: url("../images/bg-picture.webp");
+    background-size: cover;
+    width : 90%;
+    height: 51vw;
+    position: absolute;
+    left:5%;
+   }
+  #ad1{
+    width : 90%;
+    height: 51vw;
+    position: absolute;
+    left:5%;
+   }
+  #button-1{
+    background-image: url("../images/ad1-covver.png");
+    background-size: cover;
+    /* border:solid 2px blue;  */ 
+    width : 90%;
+    height: 51vw;
+    position: absolute;
+    left:5%;
+   }
+
+   .opacityZero{
+     display: none;
+   }
