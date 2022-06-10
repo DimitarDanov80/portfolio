@@ -46,7 +46,9 @@ for(let i=0; i<buttons.length ; i++){
     button.classList.add("displayNone");
     replayBtn.classList.add("opacityOne");
     ad.setAttribute("src",ad.dataset.src)
-    } )
+} )
+
+    
 
     replayBtn.addEventListener("click",function(event){
         ad.setAttribute("src",ad.dataset.src)   
