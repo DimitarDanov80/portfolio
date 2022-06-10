@@ -1144,7 +1144,7 @@ p.nominalBounds = new cjs.Rectangle(-53.5,-124.3,107.1,248.7);
 				window.open(decodeURIComponent(urlVars.clickTag));
 			}
 		}
-		this.zCTA.addEventListener("click", urlOpen.bind(this));
+		//this.zCTA.addEventListener("click", urlOpen.bind(this));
 	}
 
 	// actions tween:
@@ -2425,7 +2425,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				window.open(decodeURIComponent(urlVars.clickTag));
 			}
 		}
-		this.ctaBtn.addEventListener("click", urlOpen.bind(this));
+		//this.ctaBtn.addEventListener("click", urlOpen.bind(this));
 	}
 
 	// actions tween:
