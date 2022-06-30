@@ -22,6 +22,24 @@
   } 
 
 } 
+   .scroller-container{
+    width : 90%;
+    height: 45vw;
+    margin: auto;
+    position: relative; 
+  }  
+ @media (min-width : 768px) {
+  header{
+    width : 60%;
+    margin: auto;
+  }
+  .scroller-container{
+    width : 60%;
+    height: 30vw;
+    margin: auto;
+    position: relative; 
+    } 
+   }
   .bg-picture{
     background-image: url("../images/bg-picture.webp");
     background-size: cover;
